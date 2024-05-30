@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    gap: 20px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #5296A5;
+}
+
+li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background: #82DDF0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header h1{
+    text-align: center;
+   padding: 20px;
+    background-color: #5296A5;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+body{
+    background-color: #FCD7AD;
+}
+
+section{
+    background-color: #5296A5;
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #5296A5;
+    width: 700px;
+    margin-left: 400px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.botao{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #5296A5;
+}
+
+.botao:hover{
+    background-color: #82DDF0;
+    cursor: pointer;
+    box-shadow: 5px 3px 5px #FCD7AD;
+}
+
+section h2{
+    margin-bottom: 10px;
+}
+
+.formulario h2{
+    margin-bottom: 10px;
+}
